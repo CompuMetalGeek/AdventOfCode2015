@@ -33,7 +33,7 @@ public class Day13 extends AllDays.Day {
     public void run() throws Exception {
         {
             // get input file
-            File f = getInput("13");
+            File f = getInput();
             Scanner sc = new Scanner(f);
 
             while (sc.hasNext()) {

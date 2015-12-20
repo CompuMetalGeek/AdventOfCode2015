@@ -10,7 +10,6 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonPrimitive;
-import com.google.gson.stream.JsonReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.Map.Entry;
@@ -28,7 +27,7 @@ public class Day12 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("12");
+        File f = getInput();
         
         Scanner sc = new Scanner(f);
         sc.useDelimiter("[^0-9-]{1,}");

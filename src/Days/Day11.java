@@ -22,7 +22,7 @@ public class Day11 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("11");
+        File f = getInput();
         Scanner sc = new Scanner(f);
 
         ArrayList<Character> invalidChars = new ArrayList<>();

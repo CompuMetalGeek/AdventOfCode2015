@@ -6,12 +6,8 @@
 package Days;
 
 import HelperClasses.Day14.Reindeer;
-import com.google.common.collect.Collections2;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -32,7 +28,7 @@ public class Day14 extends AllDays.Day {
     public void run() throws Exception {
 
         // get input file
-        File f = getInput("14");
+        File f = getInput();
         int inputSeconds = 2503;
         String test = "Comet can fly 14 km/s for 10 seconds, but then must rest for 127 seconds.\n"
                 + "Dancer can fly 16 km/s for 11 seconds, but then must rest for 162 seconds.";

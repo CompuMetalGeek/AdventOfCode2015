@@ -17,7 +17,7 @@ public class Day02 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // input ophalen
-        File f = getInput("02");
+        File f = getInput();
         Scanner sc = new Scanner(f);
         sc.useDelimiter("x|\n"); // input wordt gesplitst op een newline en 'x'
 

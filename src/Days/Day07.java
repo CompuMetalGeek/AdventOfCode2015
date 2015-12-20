@@ -5,10 +5,7 @@
  */
 package Days;
 
-import HelperClasses.Day07.SingleInput;
-import HelperClasses.Day07.BitwiseOp;
-import HelperClasses.Day07.DualInput;
-import HelperClasses.Day07.Shifter;
+import HelperClasses.Day07.*;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -33,7 +30,7 @@ public class Day07 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("07");
+        File f = getInput();
         Scanner sc = new Scanner(f);
         
         // alle logische poorten verwerken en opslaan

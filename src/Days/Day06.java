@@ -37,7 +37,7 @@ public class Day06 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input
-        File f = getInput("06");
+        File f = getInput();
         Scanner sc = new Scanner(f);
 
         while (sc.hasNext()) { // zolang er nog input is

@@ -5,17 +5,12 @@
  */
 package Days;
 
-import HelperClasses.Day15.Ingredient;
-import com.google.common.collect.Collections2;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
-import java.util.TreeSet;
 
 /**
  *
@@ -33,7 +28,7 @@ public class Day16 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("16");
+        File f = getInput();
         Scanner sc = new Scanner(f);
         Map<String, Integer> knownSue = new HashMap<>();
         knownSue.put("children", 3);

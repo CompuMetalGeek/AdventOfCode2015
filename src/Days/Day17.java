@@ -27,7 +27,7 @@ public class Day17 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("17");
+        File f = getInput();
         Scanner sc = new Scanner(f);
         ArrayList<Integer> emmersList = new ArrayList<>();
         while (sc.hasNext()) {

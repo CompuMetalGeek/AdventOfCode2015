@@ -17,7 +17,7 @@ public class Day05 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // input ophalen
-        File f = getInput("05");
+        File f = getInput();
         Scanner sc = new Scanner(f);
         
         boolean bool = true; // woord voldoet aan eerste set voorwaarden

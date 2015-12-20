@@ -19,7 +19,7 @@ public class Day04 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // input ophalen
-        File f = getInput("04");
+        File f = getInput();
         String input = (new Scanner(f)).next();
 
         // md5 encryptor ophalen

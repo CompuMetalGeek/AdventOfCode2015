@@ -19,7 +19,7 @@ public class Day03 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // ophalen input
-        File f = getInput("03");
+        File f = getInput();
         Scanner sc = new Scanner(f);
         sc.useDelimiter(""); // elk karakter apart bekijken
         

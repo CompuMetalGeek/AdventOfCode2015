@@ -5,12 +5,7 @@
  */
 package Days;
 
-import com.google.common.collect.Collections2;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -25,7 +20,7 @@ public class Day10 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("10");
+        File f = getInput();
         String test = "11";
         Scanner sc = new Scanner(f);
         String number = "";

@@ -5,10 +5,7 @@
  */
 package Days;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -26,7 +23,7 @@ public class Day18 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("18");
+        File f = getInput();
         String test = ".#.#.#\n"
                 + "...##.\n"
                 + "#....#\n"

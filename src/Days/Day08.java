@@ -20,7 +20,7 @@ public class Day08 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("08");
+        File f = getInput();
         String test = "\"\""+"\n"
                 +"\"abc\""+"\n"
                 +"\"aaa\\\"aaa\""+"\n"

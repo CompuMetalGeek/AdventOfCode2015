@@ -17,7 +17,7 @@ public class Day01 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // input ophalen
-        File f = getInput("01");
+        File f = getInput();
         FileReader fr = new FileReader(f);
 
         int verdiep = 0;

@@ -5,15 +5,9 @@
  */
 package Days;
 
-import HelperClasses.Day15.Ingredient;
-import com.google.common.collect.Collections2;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Scanner;
-import java.util.TreeSet;
 
 /**
  *
@@ -33,7 +27,7 @@ public class Day15 extends AllDays.Day {
     @Override
     public void run() throws Exception {
         // get input file
-        File f = getInput("15");
+        File f = getInput();
         String test = "Butterscotch: capacity -1, durability -2, flavor 6, texture 3, calories 8\n"
                 + "Cinnamon: capacity 2, durability 3, flavor -2, texture -1, calories 3\n"
                 + "Test: capacity 0, durability 0, flavor 0, texture 0, calories 0\n"

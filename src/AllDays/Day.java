@@ -17,7 +17,8 @@ public abstract class Day {
 
     public abstract void run() throws Exception;
 
-    public File getInput(String number) throws Exception {
+    public File getInput() throws Exception {
+        String number = getClass().getSimpleName().substring(3, 5);
         URL url = getClass().getResource("/input/" + number + ".txt");
         URI uri = url.toURI();
         return new File(uri);

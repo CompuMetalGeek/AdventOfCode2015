@@ -33,7 +33,7 @@ public class Day09 extends AllDays.Day {
     public void run() throws Exception {
         {
             // get input file
-            File f = getInput("09");
+            File f = getInput();
             String test = "London to Dublin = 464\n"
                     + "London to Belfast = 518\n"
                     + "Dublin to Belfast = 141\n";
